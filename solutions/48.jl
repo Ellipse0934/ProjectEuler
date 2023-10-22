@@ -67,3 +67,5 @@ function solve()
     to_num(result)
 end
 
+println(solve())
+
