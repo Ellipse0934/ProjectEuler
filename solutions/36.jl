@@ -1,5 +1,5 @@
-function is_pal(num, base)
-    v = Int[]
+function is_pal(num, base, v = Int[])
+    empty!(v)
     if num == 0
         return true
     else
@@ -21,11 +21,14 @@ end
 function solve()
     limit = 1_000_000
     result = 0
+    v = Int[]
     for i in 1:limit
-        if is_pal(i, 2) && is_pal(i, 10)
+        if is_pal(i, 2, v) && is_pal(i, 10, v)
             result += i
         end
     end
     result
 end
+
+println(solve())
 
