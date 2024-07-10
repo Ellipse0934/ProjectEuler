@@ -1,9 +1,7 @@
 # Project Euler
 
-My solutions for [Project Euler](https://projecteuler.net)
+My solutions for [Project Euler](https://projecteuler.net) first 100 problems. In progress.
 
-As per forum admin, providing solutions for the 1st 100 problems is A-OKAY. The reason is that it's been already widely discussed and no point restricting others from publishing solutions.
-
-Final goal is to have the 1st 100 problems along with an elementary benchmark.
+Publishing the solutions for the 1st 100 problems is allowed as per [this](`https://projecteuler.net/about#publish)
 
 ![PE-Profile](https://projecteuler.net/profile/coconut-doggy.png)
