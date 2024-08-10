@@ -1,5 +1,3 @@
-using BenchmarkTools
-
 function solve()
     res = 0
     for i = 1:(1000 - 1)
@@ -11,5 +9,3 @@ function solve()
     res
 end
 
-println(solve())
-@btime solve()

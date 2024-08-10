@@ -1,5 +1,3 @@
-using BenchmarkTools
-
 function is_pal(s)
     res = true
     for i = 1:(div(length(s), 2))
@@ -23,7 +21,4 @@ function solve()
     end
     res
 end
-
-println(solve())
-@btime solve()
 

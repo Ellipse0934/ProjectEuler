@@ -1,4 +1,3 @@
-using BenchmarkTools
 # There cannot be any prime factor above sqrt(N)
 #
 # The input is ~ 6e11 therefore brute is manageable
@@ -29,9 +28,4 @@ function solve(in = INPUT)
     end
     res
 end
-
-
-
-println(solve())
-@btime solve()
 
