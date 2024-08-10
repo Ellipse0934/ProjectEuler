@@ -1,5 +1,3 @@
-using BenchmarkTools
-
 function solve()
     res = 2
     a = 3
@@ -14,7 +12,3 @@ function solve()
     end
     res
 end
-
-
-println(solve())
-@btime solve()
