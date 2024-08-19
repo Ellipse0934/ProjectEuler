@@ -13,5 +13,6 @@ if cmd == "run"
     println(solve())
 else
     solve()
-    @benchmark solve()
+    b = @benchmark solve()
+    show(stdout, MIME"text/plain"(), b)
 end
